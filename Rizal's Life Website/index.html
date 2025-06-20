@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizal's Life - Our Lady of the Sacred Heart College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Rizal's Life</h1>
+                        <p>Our Lady of the Sacred Heart College of Guimba, Inc.</p>
+                    </div>
+                </div>
+                <div class="course-info">
+                    <p class="course-code">Course: GE9</p>
+                    <p class="course-desc">Republic Act 1425 Study Guide</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        Discover the Life and Legacy of
+                        <span class="highlight">Dr. José Rizal</span>
+                    </h2>
+                    <p class="hero-description">
+                        An interactive learning platform designed to help students understand and appreciate 
+                        the contributions of our national hero through modern, accessible educational materials.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToTopics()">
+                            <i class="fas fa-book-open"></i>
+                            Start Learning
+                        </button>
+                        <button class="btn btn-secondary" onclick="showAbout()">
+                            About This Project
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="rizal-portrait">
+                        <img src="images.jpg" alt="Dr. José Rizal" class="rizal-img">
+                        <div class="portrait-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topics Grid -->
+    <section class="topics" id="topics">
+        <div class="container">
+            <div class="section-header">
+                <h3>Learning Modules</h3>
+                <p>Explore each topic through carefully organized and simplified content designed for modern learners.</p>
+            </div>
+
+            <div class="topics-grid">
+                <div class="topic-card" data-topic="rizal-law">
+                    <div class="card-header">
+                        <div class="topic-icon bg-blue">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4>Republic Act 1425: The Rizal Law</h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Learn about the law that mandates the study of Rizal's life and works in Philippine education</p>
+                        <a href="rizal-law.html" class="btn btn-dark">Explore Topic</a>
+                    </div>
+                </div>
+
+                <div class="topic-card" data-topic="19th-century">
+                    <div class="card-header">
+                        <div class="topic-icon bg-green">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>19th Century Philippines</h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Understand the historical context and conditions during Rizal's time</p>
+                        <a href="19th-century-context.html" class="btn btn-dark">Explore Topic</a>
+                    </div>
+                </div>
+
+                <div class="topic-card" data-topic="early-life">
+                    <div class="card-header">
+                        <div class="topic-icon bg-purple">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Family, Childhood & Early Education</h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Discover Rizal's family background and formative years</p>
+                        <a href="early-life.html" class="btn btn-dark">Explore Topic</a>
+                    </div>
+                </div>
+
+                <div class="topic-card" data-topic="higher-education">
+                    <div class="card-header">
+                        <div class="topic-icon bg-orange">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Higher Education & Life Abroad</h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Explore Rizal's academic journey and experiences in Europe</p>
+                        <a href="higher-education.html" class="btn btn-dark">Explore Topic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-header">
+                <h3>About This Learning Platform</h3>
+            </div>
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-icon bg-blue-light">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h4>Comprehensive Content</h4>
+                    <p>Covers all required topics as mandated by Republic Act 1425</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon bg-green-light">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4>Accessible Anywhere</h4>
+                    <p>Hosted on GitHub Pages for free, reliable access from any device</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon bg-purple-light">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Student-Friendly</h4>
+                    <p>Modern, interactive design that engages today's learners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h4>Rizal Learning Hub</h4>
+                </div>
+                <p>Our Lady of the Sacred Heart College of Guimba, Inc.</p>
+                <p class="footer-desc">Developed in compliance with Republic Act 1425 • Course: GE9</p>
+                <div class="footer-bottom">
+                    <p>© 2024 OLSHCO. Educational use only. Built with modern web technologies for enhanced learning.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
